@@ -1,0 +1,335 @@
+body {
+    overflow-x: hidden;
+ 
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .container {
+    margin: 0 auto;
+    height: auto;
+    width: 1120px;
+    padding: 10px;
+  }
+  // header start
+  .nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_ul {
+      display: flex;
+      width: 30%;
+      justify-content: space-around;
+      list-style: none;
+      text-transform: uppercase;
+      &_li a {
+        text-decoration: none;
+        color: #33323d;
+        height: 14px;
+        width: 83px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-align: left;
+      }
+      &_li a:hover {
+        color: #5fb4a2;
+      }
+    }
+  }
+  // header finish
+//   main start
+.main{
+    &_img{
+        margin-top: 50px;
+    }
+}
+// main end
+// article start
+.article{
+    &_line{
+        height: 1px;
+width: 350px;
+margin-top: 100px;
+border-radius: 0px;
+background-color: #979797;
+
+    }
+    &_box{
+        margin-top: 30px;
+    
+    &_h2 {
+        height: 42px;
+        width: 350px;
+        font-family: Ibarra Real Nova;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;
+        color: #33323d;
+      }
+      &_p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+        height: 150px;
+        width: 350px;
+        color: #33323d;
+        margin-top: 20px;
+      }
+      &_btn {
+ 
+        &_st {
+          width: 200px;
+          height: 48px;
+          background-color: #fff;
+          color: #33323d;
+          border: 2px solid #33323d;
+          margin-top: 80px;
+        }
+        &_st:hover {
+          background-color: #33323d;
+          color: #fff;
+        }
+      }
+     &_p2{
+      
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+height: 30px;
+width: 350px;
+height: 30px;
+width: 350px;
+color: #5fb4a2;
+margin-top: 10px;
+padding-top: 15px;
+     }
+    }
+}
+// article end
+// article2 start
+.article2{
+    margin-left: 500px;
+    margin-top: -410px;
+    &_h2{
+        font-family: Ibarra Real Nova;
+font-size: 32px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: -0.2857142984867096px;
+text-align: left;
+height: 42px;
+width: 350px;
+color: #33323d;
+
+    }
+    &_p{
+        font-family: Public Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+height: 180px;
+width: 635px;
+color: #33323d;
+margin-top: 30px;
+
+    }
+    &_h2_2{
+        font-family: Ibarra Real Nova;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: -0.2857142984867096px;
+        text-align: left;
+        height: 42px;
+        width: 350px;
+        color: #33323d;
+    }
+    &_img{
+        margin-top: 30px;
+    }
+    &_img2{
+        margin-top: 30px;
+    }
+}
+// article2 end
+
+// article3 start
+.article3{
+    &_line_top{
+        height: 1px;
+width: 1110px;
+background-color:#979797;
+margin-top: 70px;
+    }
+    &_h2{
+        height: 36px;
+width: 59px;
+font-family: Ibarra Real Nova;
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.2857142984867096px;
+text-align: left;
+color:#33323d;
+margin-top: 50px;
+margin-left: 30px;
+    }
+    &_p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+height: 30px;
+width: 121px;
+margin-top: -3px;
+color:#33323d;
+margin-left: 30px;
+    }
+    &_img{
+        position: relative;
+        top: -35px;
+    }
+    &_line_center{
+        height: 130px;
+width: 1px;
+background-color:#979797;
+margin: -105px auto;
+    }
+    &_h2_2{
+        height: 36px;
+width: 59px;
+font-family: Ibarra Real Nova;
+font-size: 32px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.2857142984867096px;
+text-align: left;
+color:#33323d;
+margin-left: 960px;
+    }
+    &_p_2{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+        height: 30px;
+        width: 121px;
+        margin-top: -3px;
+        color:#33323d;
+        margin-left: 1005px;
+            }
+         &_box{
+            &_img2{
+                margin-left: 1110px;
+           margin-top: -40px;
+            }
+         }
+         &_line_bottom{
+            width: 1110px;
+            height: 1px;
+            background-color: #979797;
+            margin-top: 60px;
+            margin-left: -1110px;
+         }
+        }
+// article3 end
+
+// article4 start
+.article4{
+    &_h2{
+        font-family: Ibarra Real Nova;
+font-size: 40px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -0.3571428656578064px;
+text-align: left;
+height: 84px;
+width: 350px;
+color:
+#33323D;
+margin-top: 160px;
+    }
+    &_btn{
+        margin-left: 950px;
+        margin-top: -60px;
+        &_st{
+            height: 48px;
+        width: 162px;
+        border:2px solid #33323D;
+        background-color: #fff;
+        color: #33323D; 
+        }
+        &_st:hover{
+            background-color:#33323D;
+            color: #fff
+                  }
+    }
+}
+// article4 end
+
+// footer start
+.footer{
+    width: 1440px;
+    height: 80px;
+    background-color:#33323D;
+margin-left: -160px;
+margin-top: 150px;
+&_nav{
+    position: relative;
+    display: flex;
+    margin-left: 200px;
+    top: 20px;
+    align-items:center;
+    height: 80ox;
+    &_brand_img{
+background-color: #fff;
+    }
+    &_ul {
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        list-style: none;
+        text-transform: uppercase;
+        &_li a {
+          text-decoration: none;
+          color: #fff;
+          height: 14px;
+          width: 83px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 14px;
+          letter-spacing: 2px;
+          text-align: left;
+        }
+        &_li a:hover {
+          color: #5fb4a2;
+    
+        }
+      }
+      &_ul2{
+        display: flex;
+        justify-content: space-around;
+        width: 10%;
+        list-style: none;
+      margin-left: 540px;
+      }
+}
+}
+// footer end
